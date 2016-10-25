@@ -11,7 +11,7 @@
 e = []
 
 while True:
-    print ('Write down a number 9 < n, if you want to continue the loop')
+    #Write down a number 9 < n, if you want to continue the loop
     n = int(input())
     
     if n == 0 <= 9:
