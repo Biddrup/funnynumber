@@ -1,4 +1,4 @@
-#I love number and always try to play them
+#I love number and always try to play with them
 # Before going through this code, you sould watch this one
 # https://www.youtube.com/watch?v=d8TRcZklX_Q
 
@@ -11,8 +11,8 @@
 e = []
 
 while True:
-    #Write down a number 9 < n, if you want to continue the loop
-    n = int(input('Please, give me a number: '))
+    print ('Write down a number 9 < n, if you want to continue the loop')
+    n = int(input())
     
     if n == 0 <= 9:
         break
@@ -23,7 +23,7 @@ while True:
         #Will descending number
         b = int(''.join(sorted(str(n), reverse = True)))
 
-        # Going to subtract max to min
+        # Going to subtract descending to ascending
         c = b - a 
         e = e + [n]
         print (e)
